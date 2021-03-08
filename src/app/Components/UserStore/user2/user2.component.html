@@ -1,0 +1,8 @@
+<h2>Felhasználók listája:</h2>
+<div *ngFor="let u of users">
+    <div>{{u.id}}</div>
+    <div>{{u.name}}</div>
+    <div>{{u.age}}</div>
+    <button (click)="delete(u)">Törlés</button>
+    <br/>
+</div>
