@@ -13,6 +13,7 @@ import { StoreModule } from '@ngrx/store';
 import { appReducers } from './Store/Reducers/app.reducer';
 import { Ngrx1Component } from './Components/Ngrx/ngrx1/ngrx1.component';
 import { Ngrx2Component } from './Components/Ngrx/ngrx2/ngrx2.component';
+import { StoreTestComponent } from './Components/store-test/store-test.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Ngrx2Component } from './Components/Ngrx/ngrx2/ngrx2.component';
     User1Component,
     User2Component,
     Ngrx1Component,
-    Ngrx2Component
+    Ngrx2Component,
+    StoreTestComponent
   ],
   imports: [
     BrowserModule,

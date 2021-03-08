@@ -1,0 +1,14 @@
+<br />
+<br />
+<br />
+<button (click)="toggleServiceStore()">Service store</button>
+<div *ngIf="isServiceStoreVisible">
+    <app-user1></app-user1>
+    <app-user2></app-user2>
+</div>
+
+<button (click)="toggleNgrxStore()">Ngrx store</button>
+<div *ngIf="isNgrxStoreVisible">
+    <app-ngrx1></app-ngrx1>
+    <app-ngrx2></app-ngrx2>
+</div>
