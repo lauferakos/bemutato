@@ -1,6 +1,6 @@
-<h2>SERVICE STORE:</h2>
+<h2>NGRX STORE:</h2>
 <h2>Felhasználók listája:</h2>
-<div *ngFor="let u of users">
+<div *ngFor="let u of (users$ | async)">
     <div>{{u.id}}</div>
     <div>{{u.name}}</div>
     <div>{{u.age}}</div>

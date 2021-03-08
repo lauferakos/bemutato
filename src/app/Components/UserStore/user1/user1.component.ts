@@ -14,7 +14,7 @@ export class User1Component implements OnInit {
   id: number
 
   constructor(private store:UserStoreService) {
-    store.users$.subscribe(u => length = this.id = u.length +1)
+    store.users$.subscribe(u => this.id = u.length +1)
    }
 
   ngOnInit(): void {
