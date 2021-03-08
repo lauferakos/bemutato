@@ -1,0 +1,9 @@
+h2 {
+    color: red;
+    margin-left: 10px;
+}
+
+h3,button {
+    color: red;
+    margin-left: 15px;
+}
